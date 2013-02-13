@@ -22,6 +22,14 @@
 		639AD74416C97F070011AA00 /* SBMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639AD74216C97F070011AA00 /* SBMasterViewController_iPad.xib */; };
 		639AD74716C97F070011AA00 /* SBDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639AD74516C97F070011AA00 /* SBDetailViewController_iPhone.xib */; };
 		639AD74A16C97F070011AA00 /* SBDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639AD74816C97F070011AA00 /* SBDetailViewController_iPad.xib */; };
+		639AD75316C9816D0011AA00 /* SBMachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AD75116C9816D0011AA00 /* SBMachViewController.m */; };
+		639AD75416C9816D0011AA00 /* SBMachViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639AD75216C9816D0011AA00 /* SBMachViewController.xib */; };
+		639AD75816C984650011AA00 /* SBSysctlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AD75616C984650011AA00 /* SBSysctlViewController.m */; };
+		639AD75916C984650011AA00 /* SBSysctlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639AD75716C984650011AA00 /* SBSysctlViewController.xib */; };
+		639AD75D16C989390011AA00 /* SBTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AD75B16C989390011AA00 /* SBTextViewController.m */; };
+		639AD75E16C989390011AA00 /* SBTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639AD75C16C989390011AA00 /* SBTextViewController.xib */; };
+		639AD76416C9BA940011AA00 /* SBSysctlLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 639AD76316C9BA940011AA00 /* SBSysctlLookup.m */; };
+		639AD76616CAE8EF0011AA00 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639AD76516CAE8EF0011AA00 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +54,18 @@
 		639AD74316C97F070011AA00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBMasterViewController_iPad.xib; sourceTree = "<group>"; };
 		639AD74616C97F070011AA00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBDetailViewController_iPhone.xib; sourceTree = "<group>"; };
 		639AD74916C97F070011AA00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		639AD75016C9816D0011AA00 /* SBMachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMachViewController.h; sourceTree = "<group>"; };
+		639AD75116C9816D0011AA00 /* SBMachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMachViewController.m; sourceTree = "<group>"; };
+		639AD75216C9816D0011AA00 /* SBMachViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBMachViewController.xib; sourceTree = "<group>"; };
+		639AD75516C984640011AA00 /* SBSysctlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSysctlViewController.h; sourceTree = "<group>"; };
+		639AD75616C984650011AA00 /* SBSysctlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSysctlViewController.m; sourceTree = "<group>"; };
+		639AD75716C984650011AA00 /* SBSysctlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBSysctlViewController.xib; sourceTree = "<group>"; };
+		639AD75A16C989390011AA00 /* SBTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTextViewController.h; sourceTree = "<group>"; };
+		639AD75B16C989390011AA00 /* SBTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTextViewController.m; sourceTree = "<group>"; };
+		639AD75C16C989390011AA00 /* SBTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBTextViewController.xib; sourceTree = "<group>"; };
+		639AD76216C9BA940011AA00 /* SBSysctlLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSysctlLookup.h; sourceTree = "<group>"; };
+		639AD76316C9BA940011AA00 /* SBSysctlLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSysctlLookup.m; sourceTree = "<group>"; };
+		639AD76516CAE8EF0011AA00 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639AD76616CAE8EF0011AA00 /* CoreTelephony.framework in Frameworks */,
 				639AD72216C97F070011AA00 /* UIKit.framework in Frameworks */,
 				639AD72416C97F070011AA00 /* Foundation.framework in Frameworks */,
 				639AD72616C97F070011AA00 /* CoreGraphics.framework in Frameworks */,
@@ -65,6 +86,7 @@
 		639AD71516C97F070011AA00 = {
 			isa = PBXGroup;
 			children = (
+				639AD76516CAE8EF0011AA00 /* CoreTelephony.framework */,
 				639AD72716C97F070011AA00 /* DeviceExplorer */,
 				639AD72016C97F070011AA00 /* Frameworks */,
 				639AD71F16C97F070011AA00 /* Products */,
@@ -96,6 +118,17 @@
 				639AD73116C97F070011AA00 /* SBAppDelegate.m */,
 				639AD73916C97F070011AA00 /* SBMasterViewController.h */,
 				639AD73A16C97F070011AA00 /* SBMasterViewController.m */,
+				639AD75516C984640011AA00 /* SBSysctlViewController.h */,
+				639AD75616C984650011AA00 /* SBSysctlViewController.m */,
+				639AD76216C9BA940011AA00 /* SBSysctlLookup.h */,
+				639AD76316C9BA940011AA00 /* SBSysctlLookup.m */,
+				639AD75716C984650011AA00 /* SBSysctlViewController.xib */,
+				639AD75016C9816D0011AA00 /* SBMachViewController.h */,
+				639AD75116C9816D0011AA00 /* SBMachViewController.m */,
+				639AD75216C9816D0011AA00 /* SBMachViewController.xib */,
+				639AD75A16C989390011AA00 /* SBTextViewController.h */,
+				639AD75B16C989390011AA00 /* SBTextViewController.m */,
+				639AD75C16C989390011AA00 /* SBTextViewController.xib */,
 				639AD73C16C97F070011AA00 /* SBDetailViewController.h */,
 				639AD73D16C97F070011AA00 /* SBDetailViewController.m */,
 				639AD73F16C97F070011AA00 /* SBMasterViewController_iPhone.xib */,
@@ -181,6 +214,9 @@
 				639AD74416C97F070011AA00 /* SBMasterViewController_iPad.xib in Resources */,
 				639AD74716C97F070011AA00 /* SBDetailViewController_iPhone.xib in Resources */,
 				639AD74A16C97F070011AA00 /* SBDetailViewController_iPad.xib in Resources */,
+				639AD75416C9816D0011AA00 /* SBMachViewController.xib in Resources */,
+				639AD75916C984650011AA00 /* SBSysctlViewController.xib in Resources */,
+				639AD75E16C989390011AA00 /* SBTextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +231,10 @@
 				639AD73216C97F070011AA00 /* SBAppDelegate.m in Sources */,
 				639AD73B16C97F070011AA00 /* SBMasterViewController.m in Sources */,
 				639AD73E16C97F070011AA00 /* SBDetailViewController.m in Sources */,
+				639AD75316C9816D0011AA00 /* SBMachViewController.m in Sources */,
+				639AD75816C984650011AA00 /* SBSysctlViewController.m in Sources */,
+				639AD75D16C989390011AA00 /* SBTextViewController.m in Sources */,
+				639AD76416C9BA940011AA00 /* SBSysctlLookup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +309,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,7 +334,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,10 +345,14 @@
 		639AD74E16C97F070011AA00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DeviceExplorer/DeviceExplorer-Prefix.pch";
 				INFOPLIST_FILE = "DeviceExplorer/DeviceExplorer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07201F7C-72A7-4D81-BA04-2108C61BBD0E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07201F7C-72A7-4D81-BA04-2108C61BBD0E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -316,10 +360,14 @@
 		639AD74F16C97F070011AA00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DeviceExplorer/DeviceExplorer-Prefix.pch";
 				INFOPLIST_FILE = "DeviceExplorer/DeviceExplorer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07201F7C-72A7-4D81-BA04-2108C61BBD0E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07201F7C-72A7-4D81-BA04-2108C61BBD0E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -343,6 +391,7 @@
 				639AD74F16C97F070011AA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
